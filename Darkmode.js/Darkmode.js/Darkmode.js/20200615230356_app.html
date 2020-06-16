@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Application > Dark Night Browser - Appkonthai</title>
+    <meta charset="utf-8" />
+	<meta name="description" content="Mobile Application > Dark Night Browser" />
+	<meta name="author" content="Prasomsak Khunmuen" />
+	<meta name="keywords" content="ios,web,browser,dark,night,mode,blue,light,filter,dimmer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta property="og:title" content="Dark Night Browser" />
+    <meta property="og:description" content="Eye care web browser for iOS" />
+    <meta property="og:image" content="http://appkonthai.com/img/cover-browser.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+	<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/css/style.css" rel="stylesheet" />
+    <style>
+        .tab {
+            margin-top: -20px;
+        }
+        .tab > ul > li {
+            opacity: 0.3;
+        }
+        .tab > ul > li.active {
+            opacity: 1;
+        }
+        .tab > ul > li img {
+            border-radius: 10px;
+        }
+        li > p > span {
+            color: #31C131;
+            font-weight: bold;
+        }
+        .iphone {
+            width: 240px;
+            height: 504px;
+            background: url('/img/iphone.png') no-repeat;
+        }
+        .video {
+            position: relative;
+            top: 73px;
+            left: 20px;
+            width: 203px;
+            height: 359px;
+            background: #CCCCCC url('/img/play.png') no-repeat center center;
+        }
+        .col.wi {
+            width: 240px;
+        }
+        @media screen and (max-width: 850px) {
+            .col.wi {
+                display: table-cell;
+                width: auto;
+            }
+        }
+        @media screen and (max-width: 570px) {
+            .col.wi {
+                display: block;
+            }
+        }
+    </style>
+    <script src="/js/jquery.js"></script>
+	<script src="/js/script.js"></script>
+</head>
+<body id="app">
+    <header>
+        <div logo>
+            <a href="/"><img src="/img/logo.png" /></a>
+            <span en><b><span app>app</span><span kon>kon</span><span thai>thai</span></b></span><span th><b><span app>แอพ</span><span kon>คน</span><span thai>ไทย</span></b></span>
+        </div>
+        <div id="div_tool">
+            <table>
+                <tr>
+                    <td>Language</td>
+                    <td>
+                        <ul id="ul_lang" nav>
+                            <li>EN</li>
+                            <li>TH</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Font</td>
+                    <td>
+                        <ul id="ul_font" nav>
+                            <li>M</li>
+                            <li>L</li>
+                            <li>XL</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Theme</td>
+                    <td>
+                        <ul id="ul_theme" nav>
+                            <li>Light</li>
+                            <li>Dark</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="clear: both"></div>
+    </header>
+    <nav>
+        <ul nav>
+            <li><a href="/"><i class="fa fa-home"></i><div>HOME</div></a></li>
+            <li><a href="/index"><i class="fa fa-edit"></i><div>ARTICLE</div></a></li>
+			<li class="active"><i class="fa fa-tablet"></i><div>APP</div></li>
+            <li><a href="/about"><i class="fa fa-user"></i><div>ABOUT</div></a></li>
+			<li><a href="/contact"><i class="fa fa-comments"></i><div>CONTACT</div></a></li>
+        </ul>
+    </nav>
+    <div id="div_ad1">
+	</div>
+    <div class="row">
+        <div class="col w3">
+            <div>
+                <div id="div_share"></div>
+                <div class='tab'>
+                    <ul>
+                        <li index="0" class="active"><img src="/img/browser.png"></li>
+						<li index="1"><a href="/app/test-and-check-for-iphone"><img src="/img/check.png"></a></li>
+						<li index="2"><a href="/app/pure-web-browser"><img src="/img/pure.png"></a></li>
+						<li index="3"><a href="/app/video-aspect-ratio-for-safari"><img src="/img/video.png"></a></li>
+						<li index="4"><a href="/app/tamsang"><img src="/img/tamsang.png"></a></li>
+                    </ul>
+                    <div>
+						<div>
+                            <p><h3 class="active">Dark Night Browser</h3></p>
+							<img style="max-width:100%" src="/img/cover-browser.png" />
+                            <p th>
+								คุณคิดว่าไอโฟนสว่างเกินไปไหมในที่มืด?<br />
+								คุณมีปัญหาเกี่ยวกับอาการปวดตึงและเมื่อยล้าสายตา เมื่อคุณท่องเว็บในตอนกลางคืนบ้างไหม?<br />
+								ถ้าใช่ โปรดให้แอพ Dark Night Browser ช่วยดูแลสายตาคุณ<br />
+								Dark Night Browser คือเว็บบราวเซอร์ที่ช่วยถนอมสายตาของคุณ มาพร้อมกับฟีเจอร์มาตราฐานทั้งหมดที่เว็บบราวเซอร์ควรมี ยิ่งกว่านั้นยังเพิ่มฟีเจอร์ขั้นสูงอีกมากมายสำหรับผู้ใช้ที่มีความเชี่ยวชาญ
+                            </p>
+                            <p en>
+								Do you think your iPhone is too bright in the dark?<br />
+								Do you have a problem about eye strain and fatigue when you surf the web at night?<br />
+								If so, Let Dark Night Browser protect your eyes now.<br />
+								Dark Night Browser is Eye care web browser come with all standard features that web browser should have and also plus many advanced features for an advanced user.
+                            </p>
+                            <ul th>
+                                <li>
+                                    <p>
+										<span>ฟีเจอร์ถนอมสายตา</span><br />
+										<p style="margin-left:1em">
+											ตัวกรองแสงสว่าง ปรับลดแสงสว่างลงได้มากกว่าปรับที่ระบบ<br />
+											ตัวกรองแสงสีฟ้า ช่วยให้นอนหลับได้ง่ายขึ้น<br />
+											โหมดมืด ปรับสีพื้นหลังเป็นสีดำ ตัวหนังสือสีขาว ช่วยการอ่านในที่มืด<br />
+											เพิ่มขนาดตัวอักษรให้ใหญ่ขึ้น ช่วยให้อ่านง่ายขึ้น<br />
+											ปิดการแสดงภาพเคลื่อนไหว หรือ อนิเมชั่น ป้องกันอาการเมาภาพเคลื่อนไหว<br />
+											ตัวแจ้งเตือนให้พักสายตา ป้องกันโรคตาจากจอคอมพิวเตอร์<br />
+										</p>
+									</p>
+                                </li>
+								<li>
+                                    <p>
+										<span>ฟีเจอร์มาตราฐาน</span><br />
+										<p style="margin-left:1em">
+											รองรับหน้าจอแนวตั้งและแนวนอน<br />
+											เปิดได้พร้อมกันหลายหน้าต่าง/แท็บ<br />
+											จัดเก็บรายการโปรด<br />
+											จัดเก็บประวัติการท่องเว็บ<br />
+											ล้างประวัติการท่องเว็บ, แคช, คุกกี้<br />
+											แสดงผลเว็บไซด์แบบเดสก์ท็อป<br />
+											ค้นหาในหน้าเพจ<br />
+											โหมดการอ่าน<br />
+											แปลหน้าเว็บไซด์ไปเป็นอีกภาษา<br />
+											โหมดแสดงเต็มหน้าจอ<br />
+											ท่องเว็บแบบส่วนตัว ไม่เก็บประวัติ ไม่บันทึกคุกกี้<br />
+											บันทึกชื่อผู้ใช้ รหัสผ่าน และกรอกให้อัตโนมัติ<br />
+											เลือกใช้ตัวค้นหาที่ต้องการได้<br />
+											แนะนำการค้นหาทันทีที่พิมพ์<br />
+											รายการเว็บไซด์ที่เข้าบ่อย<br />
+										</p>
+									</p>
+                                </li>
+								<li>
+                                    <p>
+										<span>ฟีเจอร์ขั้นสูง</span><br />
+										<p style="margin-left:1em">
+											ปลดล๊อคโดยใช้ passcode<br />
+											ดาวน์โหลดและพรีวิวไฟล์<br />
+											รองรับการสั่งงานโดยการปัดหน้าจอ<br />
+											จับภาพหน้าเว็บไซด์เก็บไว้<br />
+											กำหนดให้เว็บไซด์แสดงผลตามอุปกรณ์ที่เลือก<br />
+											กำหนดให้บราวเซอร์จัดการกับไฟล์แต่ละประเภท ต่างไปจากค่าเริ่มต้น<br />
+											กำหนดให้แต่ละเว็บไซด์แสดงผลแตกต่างกัน ตามความต้องการ<br />
+											คีย์บอร์ดเสริมสำหรับพิมพ์ตัวเลขและสัญลักษณ์ โดยไม่ต้องเปลี่ยนเป็นคีย์บอร์ดตัวเลข<br />
+										</p>
+									</p>
+                                </li>
+                            </ul>
+                            <ul en>
+                                <li>
+                                    <p>
+										<span>Eye care features</span><br />
+										<p style="margin-left:1em">
+											Brightness filter : Lower brightness than the system offer.<br />
+											Blue light filter : Help you sleep better.<br />
+											Dark mode : Help you read better in the dark.<br />
+											Increase font size : Help you read easier.<br />
+											Turn off all animation : Prevent you from dizzy and motion sickness.<br />
+											Rest your eye warning : Prevent you from Computer vision syndrome.<br />
+										</p>
+									</p>
+                                </li>
+								<li>
+                                    <p>
+										<span>Standard features</span><br />
+										<p style="margin-left:1em">
+											Portrait and Landscape supported.<br />
+											Multiple Tab browsing.<br />
+											Bookmark.<br />
+											History.<br />
+											Clear history, cache, cookie.<br />
+											Request desktop site.<br />
+											Find on page.<br />
+											Reader View.<br />
+											Translate website language.<br />
+											Full screen browsing mode.<br />
+											Private browsing mode.<br />
+											Save and Autofill passwords.<br />
+											Selectable search engine.<br />
+											Search suggestion when typing.<br />
+											Most visited list.<br />
+										</p>
+									</p>
+                                </li>
+								<li>
+                                    <p>
+										<span>Advanced features</span><br />
+										<p style="margin-left:1em">
+											Unlock with passcode.<br />
+											Download and preview file.<br />
+											Many swipe gestures supported.<br />
+											Capture website screen to image : Both visible area and entire website.<br />
+											User Agent switcher : Simulate your device as Mobile, Tablet, Desktop.<br />
+											Manage MIME action : Change default action for each file type.<br />
+											Customize Display, Font size, User Agent etc. for each website individually.<br />
+											Keyboard helper : Help you type a number and symbol without switch keyboard layout.<br />
+										</p>
+									</p>
+                                </li>
+                            </ul>
+                            <a href="https://itunes.apple.com/app/id1187668051" target="_blank">
+                                <img src="/img/appstore.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col wi">
+            <div>
+                <div class="iphone">
+					<div class="video" style="width:203px; height:359px; overflow:hidden">
+						<iframe frameborder="0" style="margin-left: -220px; width: 639px; height: 359px" src="http://www.youtube.com/embed/a1JZzyQVeUs?rel=0&autoplay=0&autohide=1&loop=1&showinfo=0&start=5"></iframe>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <div id="fb-root"></div><div class="fb-page" data-href="https://www.facebook.com/appkonthai/" data-tabs="timeline,message" data-adapt-container-width="false"><blockquote cite="https://www.facebook.com/appkonthai/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/appkonthai/">appkonthai.com</a></blockquote></div>
+            </div>
+            <div id="div_ad2">
+            </div>
+            <div id="div_ad3">
+            </div>
+            <div id="div_ad4">
+            </div>
+        </div>
+        <p>Copyright © 2013 appkonthai.com | <a href="/privacy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
